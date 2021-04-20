@@ -1,6 +1,6 @@
 const { Client, Intents, Collection } = require("discord.js");
 
-class MusicClient extends Client {
+class Bot extends Client {
   
   constructor() {
     super({ ws: { intents: Intents.NON_PRIVILEGED } });
@@ -23,4 +23,4 @@ class MusicClient extends Client {
   
 };
 
-module.exports = MusicClient;
+module.exports = Bot;
